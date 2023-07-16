@@ -490,7 +490,9 @@ p
 @media (max-width: 666px) {
     .do p
     {
+       margin-left: 220px;
         font-size: 12px;
+        
     }
  }
 .do a 
