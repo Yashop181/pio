@@ -1007,6 +1007,13 @@ p
 .grow {
     flex: 1 50%;
 }
+@media (max-width: 666px) {
+    .grow p
+    {
+        font-size: 31px;
+    }
+    
+    }
 .dell 
     {
     flex: 1 1 50%;
