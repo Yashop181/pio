@@ -3,23 +3,15 @@ body
     overflow-x: hidden;
     
 }
-html, body {
-    margin: 0;
-    padding: 0;
-}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
 }
-
-
-
 nav {
     position: fixed; /* Add position: fixed */
     top: 0; /* Stick to the top */
-    z-index: 1;
     width: 100%;
     height: 80px;
     background: #ec5766;
@@ -48,23 +40,13 @@ nav ul li a {
     font-size: 20px;
     padding: 8px 20px;
 }
-@media (max-width: 666px) {
-   .maindiv nav
-   {
-    
-
-    overflow-x: hidden;
-   
-   }
-}
-
 #checkbtn {
     float: right;
     line-height: 80px;
     margin-right: 10px;
     font-size: 30px;
     color: white;
-    
+    display: none;
 }
 
 #check {
@@ -87,7 +69,11 @@ nav ul li a {
         margin: 0px 70px;
     }
 
-    .maindiv nav ul {
+    #checkbtn {
+        display: block;
+    }
+
+    nav ul {
         width: 100%;
         height: 100vh;
         background: #de3747;
@@ -97,7 +83,7 @@ nav ul li a {
         transition: .5s;
     }
 
-    .maindiv nav ul li {
+    nav ul li {
         display: block;
         text-align: center;
         line-height: 40px;
@@ -124,11 +110,18 @@ nav ul li a {
     {
     display: block;  
     }
+    .maindiv nav
+    {
+       width: 373px;
+    }
+
 }
     @media (max-width: 666px) {
         .name
         {
+            margin-top: 45px;
             margin-left: 9px;
+            font-size: 14px;
         }
         
         }
