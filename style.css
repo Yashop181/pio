@@ -896,7 +896,7 @@ p
 .eeqa footer img {
     max-width: 150px;
     margin-bottom: 10px;
-    border-radius: 50%; 
+    border-radius: 30%; 
     box-shadow: 10px 10px 10px black;
 }
 .eeqa footer p {
