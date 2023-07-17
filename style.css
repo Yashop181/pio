@@ -735,6 +735,29 @@ p
     cursor: pointer;
     border-radius: 3px;
 }
+.watch {
+    text-align: center;
+}
+.watch-content {
+    background-image: url('11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px; 
+}
+
+.watch p {
+    font-size: 53px;
+    font-weight: bolder;
+    color: #1ECBE1;
+}
+
+.watch a {
+    text-decoration: none;
+    border: 3px solid #1E1480;
+    padding: 10px;
+    color: black;
+    background: linear-gradient(45deg, #86DC70, #85C6B0, #43D4A4);
+}
 
 
 .ok
