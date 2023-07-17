@@ -73,7 +73,8 @@ nav ul li a {
         display: block;
     }
 
-    nav ul {
+    nav ul 
+    {
         width: 100%;
         height: 100vh;
         background: #de3747;
@@ -82,6 +83,19 @@ nav ul li a {
         left: -100%;
         transition: .5s;
     }
+    @media (max-width: 666px) {
+        nav ul 
+        {
+            width: 64.5%;
+            height: 40vh;
+            background: #de3747;
+            position: fixed;
+            top: 80px;
+            left: -100%;
+            transition: .5s;
+        }
+        
+        }
 
     nav ul li {
         display: block;
