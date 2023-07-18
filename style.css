@@ -90,7 +90,7 @@ nav ul li a
     {
         nav ul 
         {
-            width: 64.5%;
+            width: 65%;
             height: 40vh;
             background: #de3747;
             position: fixed;
@@ -131,7 +131,7 @@ nav ul li a
     }
     .maindiv nav
     {
-        width: 375px;
+        width: 379px;
     }
 }
     @media (max-width: 666px) 
