@@ -88,6 +88,15 @@ nav ul li a
     }
     @media (max-width: 666px) 
     {
+        nav 
+        {
+            position: fixed; 
+            top: 0;
+            z-index: 11111;
+           margin-right: 20px;
+            height: 80px;
+            background: orangered;
+        }
         nav ul 
         {
             width: 65.4%;
