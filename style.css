@@ -2,6 +2,13 @@ body
 {
     overflow-x: hidden;
 }
+@media (max-width: 666px) 
+{
+  html, body
+  {
+    overflow-x: hidden;
+  }
+}
 * 
 {
     margin: 0;
@@ -101,7 +108,7 @@ nav ul li a
         }
         nav ul 
         {
-            width: 65.4%;
+            width: 80%;
             height: 40vh;
             background: #de3747;
             position: fixed;
