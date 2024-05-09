@@ -248,15 +248,25 @@ header {
 {
   font-size: 20px;
 }
+@media(max-width:424px)
+{
+  .co {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+}
 
 /* END OF DISPLAYING CLIENTS */
 
 /* STRENGTH SECTION */
 .csb {
-  margin-top: 120px;
+
   display: flex;
   justify-content: space-evenly;
   align-items: center; /* Center items vertically */
+  padding: 2rem;
 }
 
 .csb a {
@@ -267,7 +277,27 @@ header {
 .diao {
   text-align: center;
 }
+@media(max-width:625px)
+{
+  .csb
+  {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .vertical-lines
+  {
+    display: none;
+  }
+}
 
+@media(max-width:429px)
+{
+  .csb
+  {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
 .vertical-lines {
   width: 2px; /* Width of the vertical lines */
   background-color: wheat;
