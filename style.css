@@ -376,6 +376,11 @@ header {
   .saat
   {
     display: block;
+  
+  }
+  .define
+  {
+    margin-bottom: 2%;
   }
 }
 
@@ -557,6 +562,7 @@ header {
         grid-template-columns: repeat(1,1fr);
     }
 }
+
 .accordion-item {
     border-bottom: 1px solid #ccc;
   }
@@ -581,13 +587,14 @@ header {
     color: #fff; /* Default arrow color */
     transition: transform 0.3s ease, color 0.3s ease; /* Added transition for arrow color change */
   }
-  
+
   .accordion-content {
     display: none;
     padding: 10px;
     background-color: #FF6347; /* Default accordion content background color */
     color: #fff; /* Default accordion content text color */
     transition: background-color 0.3s ease, color 0.3s ease; /* Added transition for content color change */
+    
   }
   
   .accordion-item.active .accordion-btn {
@@ -735,27 +742,49 @@ header {
 /* INTERVIEW QUESTION */
 
 /* Freelance work */
+
 .watch {
+  background-image: url('11.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2%;
+}
+
+.watch-content {
   text-align: center;
 }
-.watch-content {
-  background-image: url("11.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 70px;
+
+.watch-content p:last-child {
+  margin-bottom: 0;
+
 }
-.watch p {
-  font-size: 53px;
-  font-weight: bolder;
-  color: #1ecbe1;
+
+.purse a {
+  text-decoration: none; /* Remove underline */
+  color: #A6599B; /* Text color */
+  background-color: #FFFFFF; /* Background color */
+  padding: 10px 20px; /* Padding */
+  border: 2px solid #A6599B; /* Border */
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition */
 }
-.watch a {
-  text-decoration: none;
-  border: 3px solid #1e1480;
-  padding: 10px;
-  color: black;
-  background: linear-gradient(45deg, #86dc70, #85c6b0, #43d4a4);
+
+.purse a:hover {
+  background-color: #A6599B; /* Background color on hover */
+  color: #FFFFFF; /* Text color on hover */
 }
+
+.watch-content p {
+  font-size: 40px; /* Font size */
+  color: white; /* Text color */
+}
+
+.watch-content p:last-child {
+  font-weight: bold; /* Make the last paragraph bold */
+  color: #A6599B; /* Text color for the last paragraph */
+}
+
+
 /* Freelance work Ends */
 
 /* News Starting  */
